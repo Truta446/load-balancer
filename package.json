@@ -1,0 +1,21 @@
+{
+  "name": "load-balancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:lb": "node index.js",
+    "start:server:alpha": "node servers/alpha.js",
+    "start:server:beta": "node servers/beta.js"
+  },
+  "keywords": [],
+  "author": "Juan Versolato Lopes",
+  "license": "MIT",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "https": "^1.0.0"
+  }
+}
